@@ -1,4 +1,4 @@
-name: Build App
+name: Build App  # ✅ No dash (-)
 
 on:
   push:
@@ -15,3 +15,4 @@ jobs:
 
       - name: Run a hello script
         run: echo "👋 Hello from GitHub Actions"
+
